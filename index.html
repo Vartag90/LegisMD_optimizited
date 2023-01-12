@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800&display=swap" rel="stylesheet" />
-    <link type="image/x-icon" href="img/favicon.ico" rel="shortcut icon">
-    <link type="Image/x-icon" href="img/favicon.ico" rel="icon">
-    <link rel="stylesheet" href="css/style.css">
+    <link type="image/x-icon" href="./favicon.ico" rel="shortcut icon">
+    <link type="Image/x-icon" href="./favicon.ico" rel="icon">
+    <link rel="stylesheet" href="css/minify-css.css">
     <title>LegisMD</title>
 </head>
 
@@ -19,22 +19,26 @@
                 <a href="#" class="header__logo">
 					LegisMD
 				</a>
-                <nav class="header__menu menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">Home</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">About us</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">Experience</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">Contacts</a>
-                        </li>
-                    </ul>
+                <nav class="header__menu menu navbar">
+                    <div class="container">
+                        <div class="navbar__wrap">
+                            <div class="hamb">
+                                <div class="hamb__field" id="hamb">
+                                    <span class="bar"></span> <span class="bar"></span>
+                                    <span class="bar"></span>
+                                </div>
+                            </div>
+                            <!-- <a href="#" class="logo" id="logo">Logo</a> -->
+                            <ul class="menu menu__list" id="menu">
+                                <li class="menu__item"><a href="/" class="menu__link">Home</a></li>
+                                <li class="menu__item"><a href="#who_we_are" class="menu__link">About us</a></li>
+                                <li class="menu__item"><a href="#experience" class="menu__link">Experience</a></li>
+                                <li class="menu__item"><a href="#contact_us" class="menu__link">Contacts</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </nav>
+                <div class="popup" id="popup"></div>
             </div>
         </header>
         <main class="page">
@@ -54,7 +58,7 @@
                     </div>
                 </div>
                 <div class="main-block__image -ibg">
-                    <img src="./img/main_block_bg/cover3.jpg" alt="cover">
+                    <img src="./img/main_block_bg/cover3.webp" alt="cover">
                 </div>
             </section>
             <section class="page__services services">
@@ -141,7 +145,7 @@
                     </div>
                 </div>
             </section>
-            <section class="page__practice practice">
+            <section class="page__practice practice" id="experience">
                 <div class="practice__container -container">
                     <div class="practice__header header-block">
                         <h2 class="header-block__title">Experience in the most difficult situations</h2>
@@ -161,7 +165,7 @@
                                     </div>
                                 </div>
                                 <a href="" class="item-practice__image -ibg">
-                                    <img src="./img/practice/01.jpg" alt="Judicial representation">
+                                    <img src="./img/practice/01.webp" alt="Judicial representation">
                                 </a>
                             </article>
                         </div>
@@ -177,7 +181,7 @@
                                     </div>
                                 </div>
                                 <a href="" class="item-practice__image -ibg">
-                                    <img src="./img/practice/02.jpg" alt="Corporate procedures">
+                                    <img src="./img/practice/02.webp" alt="Corporate procedures">
                                 </a>
                             </article>
                         </div>
@@ -192,7 +196,7 @@
                                     </div>
                                 </div>
                                 <a href="" class="item-practice__image -ibg">
-                                    <img src="./img/practice/03.jpg" alt="Fastest way to
+                                    <img src="./img/practice/03.webp" alt="Fastest way to
 									take action">
                                 </a>
                             </article>
@@ -209,7 +213,7 @@
                                     </div>
                                 </div>
                                 <a href="" class="item-practice__image -ibg">
-                                    <img src="./img/practice/04.jpg" alt="Work better
+                                    <img src="./img/practice/04.webp" alt="Work better
 									together">
                                 </a>
                             </article>
@@ -217,7 +221,7 @@
                     </div>
                 </div>
             </section>
-            <section class="page__whoweare whoweare">
+            <section class="page__whoweare whoweare" id="who_we_are">
                 <div class="whoweare__container -container">
                     <div class="whoweare__header header-block">
                         <h2 class="header-block__title">Who we are</h2>
@@ -268,22 +272,22 @@
                 <div class="clients__container -container">
                     <div class="clients__items">
                         <div class="clients__item">
-                            <img src="./img/clients/01.png" alt="clients">
+                            <img src="./img/clients/01.webp" alt="clients">
                         </div>
                         <div class="clients__item">
-                            <img src="./img/clients/02.png" alt="clients">
+                            <img src="./img/clients/02.webp" alt="clients">
                         </div>
                         <div class="clients__item">
-                            <img src="./img/clients/03.png" alt="clients">
+                            <img src="./img/clients/03.webp" alt="clients">
                         </div>
                         <div class="clients__item">
-                            <img src="./img/clients/04.png" alt="clients">
+                            <img src="./img/clients/04.webp" alt="clients">
                         </div>
                         <div class="clients__item">
-                            <img src="./img/clients/05.png" alt="clients">
+                            <img src="./img/clients/05.webp" alt="clients">
                         </div>
                         <div class="clients__item">
-                            <img src="./img/clients/06.png" alt="clients">
+                            <img src="./img/clients/06.webp" alt="clients">
                         </div>
                     </div>
                 </div>
@@ -300,7 +304,7 @@
                     </div>
                 </div>
             </section>
-            <section class="page__contacts contacts">
+            <section class="page__contacts contacts" id="contact_us">
                 <div class="contacts__container -container">
                     <div class="contacts__header header-block">
                         <h2 class="header-block__title">Trust us with your problem</h2>
@@ -363,7 +367,7 @@
                             <div class="consulting__subtitle">Contact us and we will process your request as soon as possible</div>
                         </div>
                         <div class="consulting__column">
-                            <button class="consulting__btn">Conact Us</button>
+                            <button class="consulting__btn">Contact Us</button>
                         </div>
                     </div>
                 </div>
@@ -466,7 +470,7 @@
         </footer>
     </div>
 
-    <script src="/js/script.js"></script>
+    <script src="./js/minify-js.js"></script>
 </body>
 
 </html>
